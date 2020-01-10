@@ -27,6 +27,7 @@ public class UserService implements UserDetailsService {
 	private UserRepository userRepository; 
 	
 	@Override
+	// Aqui tambien se puede poner el PreAuthorize
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		// TODO Auto-generated method stub
 		com.godxvincent.springweb.entity.User user =  userRepository.findUserByUsername(username);
