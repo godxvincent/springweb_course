@@ -3,7 +3,7 @@ package com.godxvincent.springweb;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-// Esto es un comentario de prueba 
+// Esto es un comentario de prueba , parte 2
 @SpringBootApplication
 public class SpringwebApplication {
 
